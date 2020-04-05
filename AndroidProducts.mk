@@ -15,8 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_X00T.mk
+    $(LOCAL_DIR)/pixys_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_X00T-userdebug \
-
+    pixys_X00TD-userdebug \
