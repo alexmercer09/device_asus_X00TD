@@ -1,0 +1,14 @@
+[
+  {
+    "remote":"github",
+    "branch":"ten",
+    "repository": "alexmercer09/kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660"
+  },
+  {
+    "remote":"github",
+    "branch":"ten",
+    "repository": "alexmercer09/vendor_asus",
+    "target_path": "vendor/asus"
+  }
+]
