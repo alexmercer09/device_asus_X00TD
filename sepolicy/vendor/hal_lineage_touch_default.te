@@ -1,0 +1,10 @@
+
+type hal_lineage_touch_default, coredomain, domain;
+hal_server_domain(hal_lineage_touch_default, hal_lineage_touch)
+
+type hal_lineage_touch_default_exec, system_file_type, exec_type, file_type;
+init_daemon_domain(hal_lineage_touch_default)
+
+allow hal_lineage_touch_default sysfs_touchpanel:dir search;
+allow hal_lineage_touch_default sysfs_touchpanel:file rw_file_perms;
+allow hal_lineage_touch_default sysfs:file { write read open };
